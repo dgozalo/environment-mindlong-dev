@@ -1,0 +1,31 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQcOkONDYCZOySvS5bqPJGWzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRlODViZGQ5YS1mODBlLTRjMjUtYmIzMC00YWFjZWNjMmI3NDYw
+    HhcNMTkwNTAzMDY1ODM2WhcNMjQwNTAxMDc1ODM2WjAvMS0wKwYDVQQDEyRlODVi
+    ZGQ5YS1mODBlLTRjMjUtYmIzMC00YWFjZWNjMmI3NDYwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDARl6Y85KqTDxcFRbmHRC68dytaMHlEFPFUdomqBW3
+    irYIDpGqQU82X1WngptE04/4wx9oK16p5BiHwv8ivig6dzmGi4WAHSSI3LszIkRL
+    Bip7naQqp14GS9pZ/6UEZaTftnJWcdqr9dGD2xAwb0vwxNy9b+RHvs4h0WkYRPvq
+    qGW5yCW3xd95oRg9QyHz2FJNVgYiDV0vJAC5eH8OWWF1a7g1a2ck/N+Cis+mmO63
+    SaMgJdteRQHEo8c3oqBAe3zxPXaMvl4ipsD9Ctz0l9yum0xm1ok8tOtc4wd7VDFp
+    6vX82JKkqq0EXHdxjSc4gJU2cRKOMLp8MpQ3v/bM9/yVAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAi
+    ajcQ/EfsD8rCd6k8UhZcbeEFPVv/9i5f8BA2I4jLAGbgPUiH27z3f4Jv9iPW2iM5
+    Bh0CdsmKdrO+MjvDRQI865/Nd23LOz0rZSVmXGrBqJg6W15l90aLx3xW4KvBGgyJ
+    Ou/3ji54R771/u4IyBqdpgsTvmqh7WpdSExTN4UkqNxZ2YJIUmW9xVRVmJ0PiWKZ
+    uc6BwdcIp5PgKpc/O06nEihoEmfXnhf0YFqgLxcF26q4VDn6cyAYEmi5dF7C8+lB
+    OzQ/Bi6XmQXBAc29L/PhqeuNJYI8xSUxzgfav9P9lFEWoSN04h4LKY2U6vrtYOry
+    z5zagAYH+QxMDj7+AAKE
+    -----END CERTIFICATE-----
+  jx-install-version: 2.0.0-dev+2bd0ab6a5
+  kubeProvider: gke
+  secretsLocation: vault
+  server: https://146.148.26.24
+  systemVaultName: jx-vault-singerstellar
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
