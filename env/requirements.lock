@@ -1,0 +1,15 @@
+dependencies:
+- name: tekton
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.37
+- name: prow
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.578
+- name: jenkins-x-platform
+  repository: http://chartmuseum.jenkins-x.io
+  version: 2.0.191
+- name: jx-app-datadog
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.3
+digest: sha256:637586cbb1f695bc7a5c4e3e6a4dc3279925988426ccfb2ed94174deb26acbd5
+generated: 2019-05-03T11:00:30.809903+02:00
